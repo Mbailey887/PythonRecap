@@ -50,6 +50,7 @@ myCellPhone = ""
 #send text message
 textmessage = client.messages.create(to=myCellPhone,from_=TwilioNumber,
                                      body=message)
+print(accountSID)
 
 
 
